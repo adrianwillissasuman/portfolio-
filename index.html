@@ -40,16 +40,16 @@
   --bg-3:        #eeecea;
   --surface:     #ffffff;
   --surface-2:   #f7f6f3;
-  --border:      rgba(0,0,0,.07);
-  --border-2:    rgba(0,0,0,.13);
-  --text:        #0f0f0f;
-  --text-2:      rgba(15,15,15,.54);
-  --text-3:      rgba(15,15,15,.33);
-  --orange:      #e55a0c;
-  --orange-dim:  #c44a08;
-  --orange-glow: rgba(229,90,12,.1);
-  --orange-tint: rgba(229,90,12,.07);
-  --rule:        rgba(0,0,0,.07);
+  --border:      rgba(168,193,240,.08);
+  --border-2:    rgba(168,193,240,.15);
+  --text:        #111e30;
+  --text-2:      rgb(12, 21, 36);
+  --text-3:      rgba(15, 15, 15, 0.56)
+  --orange:      #a8c1f0; 
+  --orange-dim:  #111e30; 
+  --orange-glow: rgba(168, 193, 240, 0.41);
+  --orange-tint: rgb(6, 13, 26);
+  --rule:        rgba(168,193,240,.08);
   --shadow:      0 8px 40px rgba(0,0,0,.09);
   --shadow-lg:   0 20px 60px rgba(0,0,0,.14);
   --modal-bg:    #ffffff;
@@ -618,7 +618,7 @@ footer a { color:#a8c1f0; text-decoration:none; }
       <div class="about-photo-wrap reveal">
         <div class="about-photo-placeholder" id="aboutPhotoWrap">
           <!-- TO ADD YOUR PHOTO: Upload a file named "about.jpg" to your images/ folder in GitHub -->
-          <img id="aboutPhotoImg" src="images/about.jpg" alt="Adrian Willis Sasuman"
+          <img id="aboutPhotoImg" src="AdrianProfile.png" alt="Adrian Willis Sasuman"
                onerror="this.style.display='none';document.getElementById('aboutPhotoHint').style.display='flex';"
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:14px;" />
           <div id="aboutPhotoHint" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;z-index:2;flex-direction:column;align-items:center;gap:.5rem;">
@@ -638,7 +638,7 @@ footer a { color:#a8c1f0; text-decoration:none; }
         <span class="eyebrow">About Me</span>
         <h2 style="font-size:clamp(2rem,4vw,2.8rem);letter-spacing:-.025em;margin-bottom:1.5rem;">I Build the Systems<br/>Behind Your Growth</h2>
         <p>I'm a <strong>Technical Virtual Assistant and Automation Specialist</strong> based in Davao City, Philippines, with over five years of experience helping businesses work smarter — not harder.</p>
-        <p>My background spans <strong>CRM automation</strong> (Keap, Zapier, GoHighLevel), <strong>WordPress course portals</strong> (LearnDash, Memberium), and <strong>social media management</strong>. I've worked with life coaches, online education platforms, and financial brands to streamline operations and grow their digital presence.</p>
+        <p>My background spans <strong>CRM Automation</strong> (GoHighLevel, Keap, Mailchimp, Zapier, n8n, Make), <strong>WordPress Course Portals</strong> (LearnDash, Memberium), and <strong>Social Media Management</strong>. I've worked with life coaches, online education platforms, and financial brands to streamline operations and grow their digital presence.</p>
         <p>When I'm not automating workflows or building websites, I'm producing short-form video content, designing brand assets, and staying current on the latest AI tools that can give my clients an edge.</p>
         <div class="skill-grid">
           <span class="tag">CRM Automation</span><span class="tag">WordPress</span><span class="tag">Keap</span>
@@ -650,7 +650,7 @@ footer a { color:#a8c1f0; text-decoration:none; }
         </div>
         <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
           <a href="#contact" class="btn-primary">Work with Me →</a>
-          <a href="#" onclick="downloadResume(event)" class="btn-ghost">⬇ Download Resume</a>
+          <a href="Adrian Willis Sasuman CV.pdf" onclick="downloadResume(event)" class="btn-ghost">⬇ Download Resume</a>
         </div>
       </div>
     </div>
@@ -664,7 +664,7 @@ footer a { color:#a8c1f0; text-decoration:none; }
   <div class="container">
     <div class="section-header reveal">
       <span class="eyebrow">What I Do</span>
-      <h2>Services That Move the Needle</h2>
+      <h2>Impact-Driven Solutions</h2>
       <p>End-to-end support — from automation to design — so you can focus on what you do best.</p>
     </div>
     <div class="services-grid">
@@ -693,7 +693,7 @@ footer a { color:#a8c1f0; text-decoration:none; }
       <div class="carousel-track-outer" id="carouselOuter">
         <div class="carousel-track" id="carouselTrack">
           <!-- TO ADD PHOTOS: Upload images named gallery-1.jpg through gallery-6.jpg to your images/ folder in GitHub -->
-          <div class="carousel-slide"><div class="carousel-img-wrap"><div class="carousel-img-box"><img src="images/gallery-1.jpg" alt="Keap Lead Nurture Pipeline" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'carousel-placeholder\'>⚙️<span>Upload images/gallery-1.jpg</span></div>'" /><button class="slide-zoom-btn" onclick="openLightbox(0)" aria-label="Zoom">⤢</button></div></div><div class="carousel-caption"><span class="slide-tag">CRM Automation</span><h4>Keap Lead Nurture Pipeline</h4><p>Full automation sequence for Inner Eye Life Coaching — welcome series, follow-ups, and tagging logic.</p></div></div>
+          <div class="carousel-slide"><div class="carousel-img-wrap"><div class="carousel-img-box"><img src="n8n.png" alt="N8N Email Sorting & Management Workflow" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'carousel-placeholder\'>⚙️<span>n8n.png</span></div>'" /><button class="slide-zoom-btn" onclick="openLightbox(0)" aria-label="Zoom">⤢</button></div></div><div class="carousel-caption"><span class="slide-tag">CRM Automation</span><h4>Keap Lead Nurture Pipeline</h4><p>Full automation sequence for Inner Eye Life Coaching — welcome series, follow-ups, and tagging logic.</p></div></div>
           <div class="carousel-slide"><div class="carousel-img-wrap"><div class="carousel-img-box"><img src="images/gallery-2.jpg" alt="SpiritedGrowth Course Portal" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'carousel-placeholder\'>🌐<span>Upload images/gallery-2.jpg</span></div>'" /><button class="slide-zoom-btn" onclick="openLightbox(1)" aria-label="Zoom">⤢</button></div></div><div class="carousel-caption"><span class="slide-tag">WordPress · LMS</span><h4>SpiritedGrowth Course Portal</h4><p>LearnDash + Memberium site launched in under two weeks, ready for live enrollment.</p></div></div>
           <div class="carousel-slide"><div class="carousel-img-wrap"><div class="carousel-img-box"><img src="images/gallery-3.jpg" alt="Content Calendar & Scheduling" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'carousel-placeholder\'>📱<span>Upload images/gallery-3.jpg</span></div>'" /><button class="slide-zoom-btn" onclick="openLightbox(2)" aria-label="Zoom">⤢</button></div></div><div class="carousel-caption"><span class="slide-tag">Social Media</span><h4>Content Calendar & Scheduling</h4><p>30-day content plan for a financial brand's Instagram and Facebook channels.</p></div></div>
           <div class="carousel-slide"><div class="carousel-img-wrap"><div class="carousel-img-box"><img src="images/gallery-4.jpg" alt="Love Yoga Brand Identity" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'carousel-placeholder\'>🎨<span>Upload images/gallery-4.jpg</span></div>'" /><button class="slide-zoom-btn" onclick="openLightbox(3)" aria-label="Zoom">⤢</button></div></div><div class="carousel-caption"><span class="slide-tag">Branding</span><h4>Love Yoga Brand Identity</h4><p>Logo, palette, and typography system delivered in 6 export formats for web and print.</p></div></div>
