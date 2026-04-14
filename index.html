@@ -711,10 +711,8 @@ footer a { color:#a8c1f0; text-decoration:none; }
 <div class="lb-overlay" id="lbOverlay" onclick="closeLightboxOutside(event)">
   <div class="lb-inner">
     <button class="lb-close" onclick="closeLightbox()">✕</button>
-    <img id="lbImg" src="imagesgallery-1.jpg" alt="1" />
-     <img id="lbImg" src="imagesgallery-2.jpg" alt="2" />
-     <img id="lbImg" src="imagesgallery-3.jpg" alt="3" />
-     <img id="lbImg" src="imagesgallery-4.jpg" alt="4" />
+    <img id="lbImg" src="" alt="" />
+     
     <p class="lb-caption" id="lbCaption"></p>
   </div>
 </div>
@@ -830,12 +828,11 @@ function closeModalOutside(e) { if (e.target===document.getElementById('modalOve
 
 // ══ LIGHTBOX ══
 const GD=[
-  {src:'images/gallery-1.jpg', caption:'Keap Lead Nurture Pipeline — Inner Eye Life Coaching'},
-  {src:'images/gallery-2.jpg', caption:'SpiritedGrowth Course Portal — LearnDash + Memberium'},
-  {src:'images/gallery-3.jpg', caption:'Content Calendar & Scheduling — Financial Brand'},
-  {src:'images/gallery-4.jpg', caption:'Love Yoga Brand Identity — Logo & Color System'},
-  {src:'images/gallery-5.jpg', caption:'Coaching Reels & TikToks — Short-Form Video Production'},
-  {src:'images/gallery-6.jpg', caption:'Executive Calendar System — Acuity + Google Calendar'},
+  {src:'imagesgallery-1.jpg', caption:'Keap Lead Nurture Pipeline — Inner Eye Life Coaching'},
+  {src:'imagesgallery-2.jpg', caption:'SpiritedGrowth Course Portal — LearnDash + Memberium'},
+  {src:'imagesgallery-3.jpg', caption:'Content Calendar & Scheduling — Financial Brand'},
+  {src:'imagesgallery-4.jpg', caption:'Love Yoga Brand Identity — Logo & Color System'},
+ 
 ];
 function openLightbox(i){
   const d=GD[i];
